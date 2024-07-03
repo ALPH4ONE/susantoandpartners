@@ -1,0 +1,27 @@
+
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background-color: pink;
+}
+
+header .title.main {
+    background-color: whitesmoke;
+    display: inline-block;
+}
+
+header .links {
+    float: right;
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0px;
+} 
+
+header .links li{
+    background-color: whitesmoke;
+    display: inline-block;
+}
